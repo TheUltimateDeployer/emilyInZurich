@@ -7,7 +7,7 @@ module.exports = function(eleventyConfig) {
             widths: widths,
             formats: formats,
             outputDir: "./docs/img/", // relative to the output directory
-            urlPath: "/img/", // URL path in the final HTML
+            urlPath: "./img/", // URL path in the final HTML
         });
 
         let imageAttributes = {
